@@ -1,0 +1,45 @@
+.App {
+  
+  background-color: #6c757d;
+    height: auto;
+    box-sizing: border-box;
+    width: 60%;
+    margin-top: 50px;
+    margin-left: 20%;
+    padding: 30px;
+  }
+
+  .FormInput{
+    width: 60%;
+    height:50px;
+    border:none;
+    border-radius: 5px;
+    background-color: #343a40;
+    outline:none;
+    font-size: 20px;
+    color:white;
+  }
+
+  .AddButton{
+    margin-left: 2%;
+    width: 15%;
+    height:50px;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    color: #fff;
+    background-color: #007bff;
+    font-size: 20px;
+  }
+
+  .DeleteAll{
+    margin-left: 2%;
+    width: 20%;
+    height:50px;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    color: #fff;
+    background-color: #dc3545;
+    font-size: 20px;
+  }

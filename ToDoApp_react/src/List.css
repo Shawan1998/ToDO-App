@@ -1,0 +1,52 @@
+.list{
+    color: white;
+    background-color: #28a745;
+    font-size: 25px;
+    height: 50px;
+    margin: 40px auto;
+   
+}
+
+.list p{
+    padding:10px;
+    position: relative;
+}
+
+.Del{
+    font-size: 20px;
+    width: 10%;
+    position: absolute;
+    height:30px;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    right: 20px;
+    cursor: pointer;
+    background-color: #dc3545;
+}
+.Del:hover,.show:hover{
+    font-size: 21px;
+}
+.show{
+    margin-left: 4%;
+    width: 10%;
+    height:30px;
+    border-radius: 5px;
+    border:none;
+    cursor:pointer;
+    color: #fff;
+    background-color: #007bff;
+    font-size: 20px;
+    
+}
+
+
+.list p input{
+    background: transparent;
+    outline: none;
+    border: none;
+    color:white;
+    font-size: 22px;
+    width: 70%;
+    
+}
